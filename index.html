@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Andy Wladis</title>
+    <title>Andrew Wladis</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -19,7 +19,7 @@
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
-                background-color: rgb(47, 47, 143);
+                background-color: rgb(29, 132, 216);
                 padding: 300px;
             }
             nav {
@@ -104,11 +104,18 @@
                 display: flex;
                 justify-content: center;
             }
-
-            #contact-info {
+            .contact {
                 background-color: rgb(50, 50, 85);
+            }
+            #contact-info {
                 display: flex;
                 justify-content: space-around;
+            }
+
+            #contactHOne {
+                display: flex;
+                justify-content: center;
+                color: rgb(0, 102, 255);
             }
         </style>
 </head>
@@ -121,7 +128,7 @@
     <br>
     <section id="welcome-section">
          <div>
-            <h1>Andy Wladis</h1>
+            <h1>Andrew Wladis</h1>
          </div>   
  
     </section>
@@ -182,9 +189,14 @@
                 </div>
             </div>                            
     </section>
-    <div id="contact-info">
-        <a target="_blank" href="https://github.com/AndrewWladis"><h3 class="project-tile">Github</h3></a>
-        <span itemprop="name">  <a href="mailto:andrewwladis@gmail.com"><h3>Email</h3></a></span>
+    <div class="me">
+    </div>
+    <div class="contact">
+        <h2 id="contactHOne">Contacts</h2>
+        <div id="contact-info">
+            <a target="_blank" href="https://github.com/AndrewWladis"><h4 class="project-tile">Github</h4></a>
+            <span itemprop="name">  <a href="mailto:andrewwladis@gmail.com"><h4>Email</h4></a></span>
+        </div>
     </div>
 </body>
 </html>
