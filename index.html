@@ -20,17 +20,16 @@
                 align-items: center;
                 flex-direction: column;
                 background-color: rgb(29, 132, 216);
-                padding: 300px;
             }
             nav {
                 text-align: center;
                 position: fixed;
                 background-color: rgb(50, 50, 85);
+                width: 100%;
             }
             
             .nav-link {
                 display: inline;
-                margin: 200px;
             }
             .flexing {
                 display: flex;
@@ -75,16 +74,11 @@
                 justify-content: center;
             }
             .jumbotron {
-                padding: 2rem 1rem;
-                margin-bottom: 2rem;
                 background-image: url(https://fsmedia.imgix.net/bb/ae/3e/d3/8174/4f87/b270/a1c78d80d1c4/redhotocv1openordervarjpg.jpeg?rect=0%2C889%2C1987%2C993&auto=format%2Ccompress&dpr=2&w=650);
                 background-size: cover;
                 border-radius: .3rem;
-                height: 300px;
-                width: 1700px;
             }
             .display-3{
-                font-size: 90px;
                 color: lightblue;
             }
 
@@ -92,6 +86,7 @@
                 display: flex;
                 justify-content: space-between;
                 flex-direction: row;
+                flex-wrap: wrap;
             }
 
             .project-tile {
@@ -138,11 +133,11 @@
         <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-    <nav id="navbar">
-            <a class="nav-link" href="#welcome-section">Welcome</a>
-            <a class="nav-link" href="#project-header">Projects</a>
-            <a class="nav-link" href="#contact-info">Contacts</a>
-    </nav>
+    <nav id="navbar" style="display: flex; justify-content: space-evenly;">
+        <a class="nav-link" href="#welcome-section">Welcome</a>
+        <a class="nav-link" href="#project-header">Projects</a>
+        <a class="nav-link" href="#contact-info">Contacts</a>
+</nav>
     <br>
     <section id="welcome-section">
          <div>
@@ -151,7 +146,7 @@
  
     </section>
     <section>
-        <h2 id="project-header">Here are some of my projects</h2>
+        <h2 id="project-header" class="text-center">Here are some of my projects</h2>
         <br>
             <div class="projects">
                 <div class="project-tile">
@@ -180,6 +175,7 @@
                 </div>
             </div>
             <br>
+            
             <div class="projects">
                 <div class="project-tile">
                     <a lass="btn btn-primary" target="_blank" href="https://amongusfanpage.netlify.app/">
@@ -217,6 +213,12 @@
                     <a lass="btn btn-primary" target="_blank" href="https://discord.com/oauth2/authorize?client_id=796007315631243285&scope=bot">
                     <img class="img-size" src="Grievoushead.jpg" class="card-img-top" alt="logo">
                     <h5>GeneralGrevious66 Discord Bot</h5>
+                </a>
+            </div>
+                    <div class="project-tile">
+                        <a lass="btn btn-primary" target="_blank" href="https://discord.com/oauth2/authorize?client_id=796007315631243285&scope=bot">
+                        <img class="img-size" src="https://randomfunnnymemes.netlify.app/Memes/80.jpeg" class="card-img-top" alt="logo">
+                        <h5>Random Funny Memes Site</h5>
                     </a>
                 </div>
             </div>
