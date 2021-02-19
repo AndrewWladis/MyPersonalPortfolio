@@ -36,7 +36,7 @@
                 display: flex;
                 flex-direction: column;
             }
-            img {
+            .img-size {
                 width: 287px;
                 height: 200px;
             }
@@ -114,6 +114,21 @@
                 color: rgb(0, 102, 255);
             }
 
+            .img-size {
+                border: solid black 1px;
+            }
+
+            #skills {
+                background-color: rgb(67, 58, 148);
+            }
+
+            .skill {
+                padding: 15px;
+            }
+
+            .white-text {
+                color: white;
+            }
         </style>
         <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -152,25 +167,25 @@
             <div class="projects">
                 <div class="project-tile">
                     <a lass="btn btn-primary" target="_blank" href="http://duckycomics.com/">
-                    <img class="img-size" src="duckbat.jpg" class="card-img-top" alt="duck batman">
+                    <img class="img-size" src="images/duckycomics.jpg" class="card-img-top" alt="ducky comics">
                     <h5>Ducky Comics</h5>
                     </a>
                 </div>
                 <div class="project-tile">
                     <a target="_blank" ass="btn btn-primary" href="https://andrewwladis.github.io/LastMoonGaming/">
-                    <img class="img-size" src="gaming.png" class="card-img-top" alt="game">
+                    <img class="img-size" src="images/gaming.jpg" class="card-img-top" alt="game site">
                     <h5>Last Moon Gaming</h5>
                     </a>
                 </div>
                 <div class="project-tile">
                     <a target="_blank" ass="btn btn-primary" href="https://batmanduckycomics.netlify.app/">
-                    <img class="img-size" src="batman.jpeg" class="card-img-top" alt="batman">
+                    <img class="img-size" src="images/batmansite.jpg" class="card-img-top" alt="batman start screen">
                     <h5>Batman By Ducky Comics</h5>
                     </a>
                 </div>
                 <div class="project-tile">
                     <a target="_blank" lass="btn btn-primary" href="https://andrewwladis.github.io/Aquaman-Tribute/">
-                    <img class="img-size" src="https://heroichollywood.com/wp-content/uploads/2018/10/Aquaman_DC_Comics_Arthur_Mera_Cover.jpg" class="card-img-top" alt="Aquaman">
+                    <img class="img-size" src="images/aquamansite.jpg" class="card-img-top" alt="Aquaman site">
                     <h5>Aquaman-Tribute</h5>
                     </a>
                 </div>
@@ -180,25 +195,25 @@
             <div class="projects">
                 <div class="project-tile">
                     <a lass="btn btn-primary" target="_blank" href="https://amongusfanpage.netlify.app/">
-                    <img class="img-size" src="amongUs.jpeg" class="card-img-top" alt="among us">
+                    <img class="img-size" src="images/amongussite.jpg" class="card-img-top" alt="among us site">
                     <h5>Among Us FanPage</h5>
                     </a>
                 </div>
                     <div class="project-tile">
                         <a lass="btn btn-primary" target="_blank" href="https://planesinc.netlify.app/">
-                        <img class="img-size" src="paperplane.png" class="card-img-top" alt="paper plane">
+                        <img class="img-size" src="images/planesite.jpg" class="card-img-top" alt="paper plane site">
                         <h5>Planes Inc</h5>
                         </a>
                     </div>
                     <div class="project-tile">
                         <a lass="btn btn-primary" target="_blank" href="https://mrfreeze6000.netlify.app//">
-                        <img class="img-size" src="https://d33wubrfki0l68.cloudfront.net/55ee8474794391bc23afd2592f0f9792254f809d/7eb35/images/mrfreeze.jpg" class="card-img-top" alt="mr freeze">
+                        <img class="img-size" src="images/gamefreeze.jpg" class="card-img-top" alt="mr freeze site">
                         <h5>Batman: Mr Freeze</h5>
                         </a>
                     </div>
                     <div class="project-tile">
                         <a lass="btn btn-primary" target="_blank" href="https://redboxjump.netlify.app/">
-                        <img class="img-size" src="https://redboxjump.netlify.app/homepic.png" class="card-img-top" alt="red guy in a warzone">
+                        <img class="img-size" src="images/game.jpg" class="card-img-top" alt="game">
                         <h5>Red Box Jump</h5>
                         </a>
                     </div>
@@ -206,7 +221,7 @@
             <div class="projects">
                 <div class="project-tile">
                     <a lass="btn btn-primary" target="_blank" href="https://kickstart.netlify.app/">
-                    <img class="img-size" src="https://kickstart.netlify.app/kickstartlogosmall.png" class="card-img-top" alt="logo">
+                    <img class="img-size" src="images/kickstart.jpg" class="card-img-top" alt="kickstart site">
                     <h5>KickStart</h5>
                     </a>
                 </div>
@@ -218,7 +233,7 @@
             </div>
                     <div class="project-tile">
                         <a lass="btn btn-primary" target="_blank" href="https://randomfunnnymemes.netlify.app/">
-                        <img class="img-size" id="meme" src="Memes/0.jpeg" class="card-img-top" alt="meme">
+                        <img class="img-size" id="meme" src="images/meme.jpg" class="card-img-top" alt="meme site">
                         <h5>Random Funny Memes Site</h5>
                     </a>
                 </div>
@@ -226,10 +241,26 @@
             <br>                           
     </section>
     <br>
+    <div id="skills">
+        <br>
+        <h2 class="text-center white-text">I have a very particular set of skills...</h2>
+        <br>
+        <div class="projects">
+            <img class="skill" src="skills/html.png" alt="html">
+            <img class="skill" src="skills/css.png" alt="css">
+            <img class="skill" src="skills/js.png" alt="javascript">
+            <img class="skill" src="skills/terminal.png" alt="terminal">
+            <img class="skill" src="skills/git.png" alt="git">
+            <img class="skill" src="skills/node.png" alt="node js">
+            <img class="skill" src="skills/angular.png" alt="angular js">
+            <img class="skill" src="skills/wordpress.png" alt="wordpress">
+            <img class="skill" src="skills/sheets.png" alt="sheets">
+        </div>
+    </div>
     <div class="contact">
         <h2 id="contactHOne">Contacts</h2>
         <div id="contact-info">
-            <a target="_blank" href="https://github.com/AndrewWladis"><h4 class="project-tile">Github</h4></a>
+            <a target="_blank" href="https://github.com/AndrewWladis"><h4>Github</h4></a>
             <span itemprop="name">  <a href="mailto:andrewwladis@gmail.com"><h4>Email</h4></a></span>
         </div>
     </div>
