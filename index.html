@@ -5,10 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Andrew Wladis</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <script href="main.js"></script>
+   <script href="main.js"></script>
     <style>
+            @font-face {
+                src: url(coolvetica\ condensed\ rg.ttf);
+                font-family: normalFont;
+            }
+
+            #name {
+                font-size: 2.5em;
+            }
+
+            .head {
+                color: rgb(231, 231, 231);
+            }
+
+            @font-face {
+                src: url(Hack-Regular.ttf);
+                font-family: coolFont;
+            }
+
+            .center {
+                display: flex;
+                justify-content: center;
+            }
+
             html {
                 scroll-behavior: smooth;
             }
@@ -22,6 +43,7 @@
                 flex-direction: column;
                 background-color: rgb(29, 132, 216);
             }
+
             nav {
                 text-align: center;
                 position: fixed;
@@ -31,11 +53,16 @@
             
             .nav-link {
                 display: inline;
+                color: white;
+                padding: 1px;
+                /*font-family: normalFont;*/
             }
+
             .flexing {
                 display: flex;
                 flex-direction: column;
             }
+
             .img-size {
                 width: 287px;
                 height: 200px;
@@ -43,13 +70,13 @@
 
             body {
                 margin: 0;
-                font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-                font-size: 1rem;
                 font-weight: 400;
                 line-height: 1.5;
                 color: #212529;
-                background-color: rgb(18, 224, 197);      
+                background-color: rgb(18, 224, 197);    
+                font-family: coolFont;  
             }
+
             .card {
                 position: relative;
                 display: -ms-flexbox;
@@ -65,20 +92,24 @@
                 box-sizing: border-box;
                 block-size: 100, 300;
             }
+
             header {
                 display: block;
                 box-sizing: inherit;
             }
+
             .box{
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
             }
+
             .jumbotron {
                 background-image: url(https://fsmedia.imgix.net/bb/ae/3e/d3/8174/4f87/b270/a1c78d80d1c4/redhotocv1openordervarjpg.jpeg?rect=0%2C889%2C1987%2C993&auto=format%2Ccompress&dpr=2&w=650);
                 background-size: cover;
                 border-radius: .3rem;
             }
+
             .display-3{
                 color: lightblue;
             }
@@ -95,14 +126,10 @@
                 flex: 1;
             }
 
-            #project-header {
-                background-color: rgb(18, 224, 197);
-                display: flex;
-                justify-content: center;
-            }
             .contact {
                 background-color: rgb(50, 50, 85);
             }
+
             #contact-info {
                 display: flex;
                 justify-content: space-around;
@@ -150,10 +177,10 @@
 </head>
 <body>
     <nav id="navbar" style="display: flex; justify-content: space-evenly;">
-        <a class="nav-link" href="#welcome-section">Welcome</a>
-        <a class="nav-link" href="#project-header">Projects</a>
-        <a class="nav-link" href="#skills">Skills</a>
-        <a class="nav-link" href="#contact-info">Contacts</a>
+        <a class="nav-link" href="#welcome-section"><h3>Welcome</h3></a>
+        <a class="nav-link" href="#project-header"><h3>Projects</h3></a>
+        <a class="nav-link" href="#skills"><h3>Skills</h3></a>
+        <a class="nav-link" href="#contact-info"><h3>Contact</h3></a>
 </nav>
     <br>
     <section id="welcome-section">
@@ -163,31 +190,31 @@
  
     </section>
     <section>
-        <h2 id="project-header" class="text-center">Here are some of my projects</h2>
+        <h2 id="project-header" class="center">Here are some of my projects</h2>
         <br>
             <div class="projects">
                 <div class="project-tile">
-                    <a lass="btn btn-primary" target="_blank" href="http://duckycomics.com/">
+                    <a  target="_blank" href="http://duckycomics.com/">
                     <img class="img-size" src="images/duckycomics.png" class="card-img-top" alt="ducky comics">
-                    <h5>Ducky Comics</h5>
+                    <h3 class="head">Ducky Comics<h3>
                     </a>
                 </div>
                 <div class="project-tile">
-                    <a target="_blank" ass="btn btn-primary" href="https://andrewwladis.github.io/LastMoonGaming/">
+                    <a target="_blank" href="https://andrewwladis.github.io/LastMoonGaming/">
                     <img class="img-size" src="images/gaming.jpg" class="card-img-top" alt="game site">
-                    <h5>Last Moon Gaming</h5>
+                    <h3 class="head">Last Moon Gaming<h3>
                     </a>
                 </div>
                 <div class="project-tile">
-                    <a target="_blank" ass="btn btn-primary" href="https://batmanduckycomics.netlify.app/">
+                    <a target="_blank" href="https://batmanduckycomics.netlify.app/">
                     <img class="img-size" src="images/batmansite.jpg" class="card-img-top" alt="batman start screen">
-                    <h5>Batman By Ducky Comics</h5>
+                    <h3 class="head">Batman By Ducky Comics<h3>
                     </a>
                 </div>
                 <div class="project-tile">
-                    <a target="_blank" lass="btn btn-primary" href="https://andrewwladis.github.io/Aquaman-Tribute/">
+                    <a target="_blank" href="https://andrewwladis.github.io/Aquaman-Tribute/">
                     <img class="img-size" src="images/aquamansite.jpg" class="card-img-top" alt="Aquaman site">
-                    <h5>Aquaman-Tribute</h5>
+                    <h3 class="head">Aquaman-Tribute<h3>
                     </a>
                 </div>
             </div>
@@ -195,53 +222,53 @@
             
             <div class="projects">
                 <div class="project-tile">
-                    <a lass="btn btn-primary" target="_blank" href="https://amongusfanpage.netlify.app/">
+                    <a target="_blank" href="https://amongusfanpage.netlify.app/">
                     <img class="img-size" src="images/amongussite.jpg" class="card-img-top" alt="among us site">
-                    <h5>Among Us FanPage</h5>
+                    <h3 class="head">Among Us FanPage<h3>
                     </a>
                 </div>
                     <div class="project-tile">
-                        <a lass="btn btn-primary" target="_blank" href="https://planesinc.netlify.app/">
+                        <a target="_blank" href="https://planesinc.netlify.app/">
                         <img class="img-size" src="images/planesite.jpg" class="card-img-top" alt="paper plane site">
-                        <h5>Planes Inc</h5>
+                        <h3 class="head">Planes Inc<h3>
                         </a>
                     </div>
                     <div class="project-tile">
-                        <a lass="btn btn-primary" target="_blank" href="https://mrfreeze6000.netlify.app//">
+                        <a target="_blank" href="https://mrfreeze6000.netlify.app//">
                         <img class="img-size" src="images/gamefreeze.jpg" class="card-img-top" alt="mr freeze site">
-                        <h5>Batman: Mr Freeze</h5>
+                        <h3 class="head">Batman: Mr Freeze<h3>
                         </a>
                     </div>
                     <div class="project-tile">
-                        <a lass="btn btn-primary" target="_blank" href="https://redboxjump.netlify.app/">
+                        <a target="_blank" href="https://redboxjump.netlify.app/">
                         <img class="img-size" src="images/game.jpg" class="card-img-top" alt="game">
-                        <h5>Red Box Jump</h5>
+                        <h3 class="head">Red Box Jump<h3>
                         </a>
                     </div>
             </div>
             <div class="projects">
                 <div class="project-tile">
-                    <a lass="btn btn-primary" target="_blank" href="https://kickstart.netlify.app/">
+                    <a target="_blank" href="https://kickstart.netlify.app/">
                     <img class="img-size" src="images/kickstart.jpg" class="card-img-top" alt="kickstart site">
-                    <h5>KickStart</h5>
+                    <h3 class="head">KickStart<h3>
                     </a>
                 </div>
                 <div class="project-tile">
-                    <a lass="btn btn-primary" target="_blank" href="https://discord.com/oauth2/authorize?client_id=796007315631243285&scope=bot">
+                    <a target="_blank" href="https://discord.com/oauth2/authorize?client_id=796007315631243285&scope=bot">
                     <img class="img-size" src="Grievoushead.jpg" class="card-img-top" alt="General Grevious">
-                    <h5>GeneralGrevious66 Discord Bot</h5>
+                    <h3 class="head">GeneralGrevious66 Discord Bot<h3>
                 </a>
             </div>
                     <div class="project-tile">
-                        <a lass="btn btn-primary" target="_blank" href="https://randomfunnnymemes.netlify.app/">
+                        <a target="_blank" href="https://randomfunnnymemes.netlify.app/">
                         <img class="img-size" id="meme" src="images/meme.jpg" class="card-img-top" alt="meme site">
-                        <h5>Random Funny Memes Site</h5>
+                        <h3 class="head">Random Funny Memes Site<h3>
                     </a>
                 </div>
             <div class="project-tile">
-                <a lass="btn btn-primary" target="_blank" href="https://scarefloorsimulator.netlify.app/">
+                <a target="_blank" href="https://scarefloorsimulator.netlify.app/">
                 <img class="img-size" id="meme" src="images/scarefloor.png" class="card-img-top" alt="monsters site">
-                <h5>Monsters Inc Scare Floor Game</h5>
+                <h3 class="head">Monsters Inc Scare Floor Game<h3>
             </a>
         </div>
     </div>
@@ -250,7 +277,7 @@
     <br>
     <div id="skills">
         <br>
-        <h2 class="text-center white-text">Here Is My Vast Array of Tech Skills</h2>
+        <h3 class="center white-text">Here Is My Vast Array of Tech Skills</h2>
         <br>
         <div class="projects">
             <img class="skill" src="skills/html.png" alt="html">
@@ -264,11 +291,14 @@
         </div>
     </div>
     <div class="contact">
-        <h2 id="contactHOne">Contacts</h2>
+        <h3 id="contactHOne">Contacts</h2>
         <div id="contact-info">
-            <a target="_blank" href="https://github.com/AndrewWladis"><h4>Github</h4></a>
-            <span itemprop="name">  <a href="mailto:andywladis@icloud.com"><h4>Email</h4></a></span>
+            <a class="nav-link" target="_blank" href="https://github.com/AndrewWladis"><h4 style="font-family: coolFont;">Github</h4></a>
+            <a class="nav-link" href="mailto:andywladis@icloud.com"><h4 style="font-family: coolFont;">Email</h4></a>
         </div>
     </div>
+    <script>
+
+    </script>
 </body>
 </html>
