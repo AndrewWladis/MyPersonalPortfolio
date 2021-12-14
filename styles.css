@@ -1,0 +1,163 @@
+.lato-font {
+    font-family: 'Lato', sans-serif;
+}
+
+@font-face {
+    src: url(coolvetica\ condensed\ rg.ttf);
+    font-family: normalFont;
+}
+
+#name {
+    font-size: 2.5em;
+}
+
+.head {
+    color: black;
+}
+
+@font-face {
+    src: url(Hack-Regular.ttf);
+    font-family: coolFont;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#welcome-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(29, 132, 216);
+}
+
+nav {
+    text-align: center;
+    position: fixed;
+    background-color: rgb(50, 50, 85);
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.devText {
+    display: flex;
+    justify-content: center;
+}
+
+.devText h1 {
+    padding: 5px;
+}
+
+.nav-link {
+    display: inline;
+    color: white;
+    padding: 1px;
+}
+
+.flexing {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-size {
+    width: 287px;
+    height: 200px;
+}
+
+body {
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: rgb(18, 224, 197);    
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-sizing: border-box;
+    block-size: 100, 300;
+}
+
+header {
+    display: block;
+    box-sizing: inherit;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.jumbotron {
+    background-image: url(https://fsmedia.imgix.net/bb/ae/3e/d3/8174/4f87/b270/a1c78d80d1c4/redhotocv1openordervarjpg.jpeg?rect=0%2C889%2C1987%2C993&auto=format%2Ccompress&dpr=2&w=650);
+    background-size: cover;
+    border-radius: .3rem;
+}
+
+.display-3{
+    color: lightblue;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project-tile {
+    text-align: center;
+    flex: 1;
+}
+
+.contact {
+    background-color: rgb(50, 50, 85);
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+#contact-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+#contactHOne {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.img-size {
+    border: solid black 1px;
+}
+
+#skills {
+    background-color: rgb(67, 58, 148);
+}
+
+.skill {
+    padding: 15px;
+}
+
+.white-text {
+    color: white;
+}
