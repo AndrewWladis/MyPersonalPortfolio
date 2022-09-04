@@ -7,9 +7,8 @@
     font-family: normalFont;
 }
 
-@keyframes skillanimation {
-    0% {opacity: 100%;}
-    50% {opacity: 50%;}
+@keyframes skillAnimate {
+    0% {opacity: 50%;}
     100% {opacity: 100%;}
 }
 
@@ -164,6 +163,12 @@ header {
     padding: 15px;
     border-radius: 25%;
     max-width: 125px;
+    opacity: 50%;
+}
+
+.skill:hover {
+    animation: skillAnimate 1s;
+    opacity: 100%;
 }
 
 .white-text {
