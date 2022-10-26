@@ -58,6 +58,7 @@ nav {
 
 .nav-link {
     display: inline;
+    text-decoration: none;
     color: white;
     padding: 1px;
 }
