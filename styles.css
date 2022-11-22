@@ -132,6 +132,7 @@ header {
 }
 
 .contact {
+    margin-top: 0;
     background-color: rgb(50, 50, 85);
     font-family: 'Noto Sans Display', sans-serif;
 }
@@ -145,6 +146,7 @@ header {
     display: flex;
     justify-content: center;
     color: rgb(255, 255, 255);
+    margin-top: 0;
 }
 
 .img-size {
@@ -153,6 +155,7 @@ header {
 
 #skills {
     background-color: rgb(67, 58, 148);
+    margin-bottom: 0;
 }
 
 .skill {
