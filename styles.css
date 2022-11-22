@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
+
 .lato-font {
     font-family: 'Lato', sans-serif;
 }
@@ -61,6 +63,7 @@ nav {
     text-decoration: none;
     color: white;
     padding: 1px;
+    font-family: 'Alexandria', sans-serif;
 }
 
 .flexing {
@@ -132,21 +135,20 @@ header {
 }
 
 .contact {
-    margin-top: 0;
     background-color: rgb(50, 50, 85);
     font-family: 'Noto Sans Display', sans-serif;
-}
-
-#contact-info {
-    display: flex;
-    justify-content: space-around;
-}
-
-#contactHOne {
+    height: 10%;
     display: flex;
     justify-content: center;
-    color: rgb(255, 255, 255);
-    margin-top: 0;
+    align-items: center;
+}
+
+.contact > a {
+    padding: 20px;
+}
+
+.font-awesome {
+    color: white;
 }
 
 .img-size {
