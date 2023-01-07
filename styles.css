@@ -127,6 +127,7 @@ header {
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .project-tile {
@@ -163,7 +164,7 @@ header {
 .skill {
     padding: 15px;
     border-radius: 25%;
-    max-width: 125px;
+    max-width: 150px;
     opacity: 100%;
 }
 
