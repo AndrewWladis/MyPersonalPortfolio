@@ -72,8 +72,9 @@ nav {
 }
 
 .img-size {
-    width: 287px;
-    height: 200px;
+    object-fit: cover;
+    width: 300px;
+    height: 215px;
 }
 
 body {
@@ -133,6 +134,7 @@ header {
 .project-tile {
     text-align: center;
     flex: 1;
+    margin: 0.25%;
 }
 
 .contact {
