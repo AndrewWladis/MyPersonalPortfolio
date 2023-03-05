@@ -113,16 +113,6 @@ header {
     justify-content: center;
 }
 
-.jumbotron {
-    background-image: url(https://fsmedia.imgix.net/bb/ae/3e/d3/8174/4f87/b270/a1c78d80d1c4/redhotocv1openordervarjpg.jpeg?rect=0%2C889%2C1987%2C993&auto=format%2Ccompress&dpr=2&w=650);
-    background-size: cover;
-    border-radius: .3rem;
-}
-
-.display-3{
-    color: lightblue;
-}
-
 .projects {
     display: flex;
     justify-content: space-between;
@@ -180,30 +170,4 @@ header {
     font-family: 'Noto Sans Display', sans-serif;
     padding: 0;
     margin: 0;
-}
-
-#certifications {
-    background-color: rgb(22, 22, 58);
-}
-
-#certifications img {
-    max-width: 400px;
-    height: 325px;
-    padding: 0;
-    margin: 0;
-}
-
-#certifications a {
-    padding: 0;
-    margin: 3%;
-    max-width: 40%;
-    height: 40%;
-}
-
-.certifications-container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
 }
